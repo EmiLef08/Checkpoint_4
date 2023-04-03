@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: $brown-1;
+}
+
+.div-logo {
+    width: auto;
+    height: 3rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: auto;
+    height: 3rem;
+}
