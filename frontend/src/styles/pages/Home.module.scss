@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    height: 100%;
+    margin-bottom: 3rem;
 }
 
 .home-pict {
@@ -190,6 +192,9 @@
 
 
 @media screen and (min-width: 993px) {
+    .home {
+        margin-bottom: 0;
+    }
     .home-pict {
         display: flex;
         box-sizing: border-box;
