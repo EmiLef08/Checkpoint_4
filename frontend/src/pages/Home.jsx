@@ -1,43 +1,44 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 // eslint-disable-next-line import/no-extraneous-dependencies
-import axios from "axios";
+// import axios from "axios";
 import Dijon from "../assets/Dijon.jpeg";
 
 import styles from "../styles/pages/Home.module.scss";
 
 export default function Home() {
-  const [photos, setPhotos] = useState([]);
-  const [popularPhotos, setPopularPhotos] = useState([]);
+  // const [photos, setPhotos] = useState([]);
+  // const [popularPhotos, setPopularPhotos] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    axios
-      .get(`${import.meta.env.VITE_BACKEND_URL}/photos`)
-      .then((res) => {
-        setPhotos(res.data.results);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(`${import.meta.env.VITE_BACKEND_URL}/photos`)
+  //     .then((res) => {
+  //       setPhotos(res.data.results);
+  //     })
+  //     .catch((err) => {
+  //       console.error(err);
+  //     });
+  // }, []);
 
-  const handleRandomize = () => {
-    const popularPhotosArr = [];
+  // const handleRandomize = () => {
+  //   const popularPhotosArr = [];
 
-    while (popularPhotosArr.length < 3) {
-      const randomIndex = Math.floor(Math.random() * photos.length);
-      if (!popularPhotosArr.includes(randomIndex)) {
-        popularPhotosArr.push(randomIndex);
-      }
+  //   while (popularPhotosArr.length < 4) {
+  //     const randomIndex = Math.floor(Math.random() * photos.length);
+  //     if (!popularPhotosArr.includes(randomIndex)) {
+  //       popularPhotosArr.push(randomIndex);
+  //     }
 
-      setPopularPhotos(popularPhotos);
-    }
-  };
+  //     setPopularPhotos(popularPhotos);
+  //   }
+  // };
 
-  useEffect(() => {
-    handleRandomize();
-  }, [photos]);
+  // useEffect(() => {
+  //   handleRandomize();
+  // }, [photos]);
+
   const handleClick = () => {
     navigate("/information");
   };
@@ -71,13 +72,7 @@ export default function Home() {
         </button>
       </div>
       <div className={styles["home-img"]}>
-        {photos.map((photo) => (
-          <img
-            key={photo.id}
-            src={photo.urls.regular}
-            alt={photo.alt_description}
-          />
-        ))}
+        <img src="" alt="" />
       </div>
     </div>
   );
