@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 // eslint-disable-next-line import/no-extraneous-dependencies
 // import axios from "axios";
 import Dijon from "../assets/Dijon.jpeg";
+import banques from "../assets/banques_2.png";
+import cabaret from "../assets/Cabaret_2.png";
+import cnl from "../assets/cnl_vannes_2.png";
 
 import styles from "../styles/pages/Home.module.scss";
 
@@ -72,8 +75,19 @@ export default function Home() {
         </button>
       </div>
       <div className={styles["home-img"]}>
-        <img src="" alt="" />
+        <img src={cabaret} alt="Cabaret Vert" />
+        <img src={banques} alt="Banques Alimentaires" />
+        <img src={cnl} alt="Convention Nationale LEO Vannes" />
       </div>
+      {/* <div className={styles["home-btn"]}>
+        <button
+          type="button"
+          className={styles["btn-a-propos"]}
+          onClick={handleClick}
+        >
+          EN SAVOIR +
+        </button>
+      </div> */}
     </div>
   );
 }
