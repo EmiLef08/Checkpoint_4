@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+@media screen and (max-width: 992px) {
+    .footer {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .footer  {
+      display: flex;
+      bottom: 0;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 1rem;
+      box-sizing: border-box;
+      width: 100%;
+      background-color: $brown-3;
+  }
+  
+    .footercontain {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 3rem;
+    }
+
+}

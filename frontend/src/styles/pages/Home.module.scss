@@ -107,6 +107,7 @@
 .reseaux h2 {
     font-family: $text-font;
     font-size: 1.2rem;
+    margin: 2rem 0.6rem 2rem 0.6rem;
 }
 
 .contact {
@@ -156,6 +157,9 @@
     margin-top: 0.3rem;
     border-radius: 20px;
     border: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    height: 1.4rem;
 }
 
 .subject-contact {
@@ -170,6 +174,7 @@
     margin-top: 0.3rem;
     font-family: $text-font;
     font-size: 0.8rem;
+    padding: 0.4rem;
 }
 
 .btn-contact {
@@ -290,6 +295,7 @@
     .reseaux h2 {
         font-family: $text-font;
         font-size: 1.8rem;
+        
     }
     
     .form {
