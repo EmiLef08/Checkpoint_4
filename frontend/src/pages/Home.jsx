@@ -71,7 +71,13 @@ export default function Home() {
         </button>
       </div>
       <div className={styles["home-img"]}>
-        <img src={Dijon} alt="dijon_picture" />
+        {photos.map((photo) => (
+          <img
+            key={photo.id}
+            src={photo.urls.regular}
+            alt={photo.alt_description}
+          />
+        ))}
       </div>
     </div>
   );
