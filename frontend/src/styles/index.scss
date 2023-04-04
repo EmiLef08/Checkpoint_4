@@ -1,0 +1,14 @@
+@import url(https://fonts.google.com/share?selection.family=Inconsolata%7CRoboto:wght@300;400);
+
+@import "./variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-image: url("../assets/Background.png") ;
+    background-size: auto contain;
+}
