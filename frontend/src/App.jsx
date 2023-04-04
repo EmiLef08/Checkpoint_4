@@ -3,6 +3,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
+import MobNavbar from "./components/MobNavbar";
 
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <MobNavbar />
     </div>
   );
 }
