@@ -117,7 +117,7 @@ CREATE TABLE `photos` (
 
 LOCK TABLES `photos` WRITE;
 /*!40000 ALTER TABLE `photos` DISABLE KEYS */;
-INSERT INTO `photos` VALUES (1,'Cabaret_1.jpeg',1),(2,'Cabaret_2.jpeg',1),(3,'Cabaret_3.jpeg',1),(4,'Cabaret_4.jpeg',1),(5,'cnl_vannes_1.JPG',3),(6,'cnl_vannes_.JPG',3),(7,'cnl_vannes_1.jpg',3),(8,'banques_1.JPG',4),(9,'banques_2.JPG',4),(10,'jouets.JPG',5),(11,'diabete.JPG',6),(12,'jdp_strasbourg_1.jpeg',7),(13,'jdp_strasbourg_2.jpeg',7),(14,'jdp_strasbourg_3.jpeg',7),(15,'nichoirs_1.JPG',8),(16,'nichoirs_2.JPG',8),(17,'nichoirs_3.JPG',8),(18,'nichoirs_4.JPG',8);
+INSERT INTO `photos` VALUES (1,'Cabaret_1.jpeg',1),(2,'Cabaret_2.jpeg',1),(3,'Cabaret_3.jpeg',1),(4,'Cabaret_4.jpeg',1),(5,'cnl_vannes_1.jpeg',3),(6,'cnl_vannes_.jpeg',3),(7,'cnl_vannes_1.jpeg',3),(8,'banques_1.jpeg',4),(9,'banques_2.jpeg',4),(10,'jouets.jpeg',5),(11,'diabete.jpeg',6),(12,'jdp_strasbourg_1.jpeg',7),(13,'jdp_strasbourg_2.jpeg',7),(14,'jdp_strasbourg_3.jpeg',7),(15,'nichoirs_1.jpeg',8),(16,'nichoirs_2.jpeg',8),(17,'nichoirs_3.jpeg',8),(18,'nichoirs_4.jpeg',8);
 /*!40000 ALTER TABLE `photos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

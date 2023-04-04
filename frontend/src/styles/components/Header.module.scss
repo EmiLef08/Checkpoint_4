@@ -1,19 +1,28 @@
 @import "../variables.scss";
 
 .header {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    background-color: $brown-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: static;
 }
 
 .div-logo {
     width: auto;
     height: 3rem;
     box-sizing: border-box;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo {
     width: auto;
     height: 3rem;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.div-return {
+    grid-column: 1/2;
 }
