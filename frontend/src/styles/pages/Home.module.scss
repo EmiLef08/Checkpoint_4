@@ -1,0 +1,335 @@
+@import "../variables.scss";
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.home-pict {
+    display: flex;
+    box-sizing: border-box;
+    margin: 1rem 0 2rem 0 ;
+}
+
+.home-pict img {
+    width: 100%;
+    border: solid 2px $brown-3;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px $brown-3;
+}
+
+.home-title {
+    font-family: $title-font;
+    font-weight: bold;
+    color: $orange-1;
+    text-align: center;
+    font-size: medium;
+}
+
+.home-text {
+    font-family: $text-font;
+    font-size: small;
+    color: $white;
+    text-align: center;
+    margin: 1rem 0.7rem 1rem 0.7rem;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn-a-propos {
+    width: 7rem;
+    height: 3rem;
+    color: $white;
+    background-color: $orange-1;
+    border: none;
+    border-radius: 30px;
+}
+
+.home-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: $light-brown-1;
+    margin: 1rem 0.7rem 1rem 0.7rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.home-img img {
+    height: auto;
+    width: 80%;
+    margin: 0.3rem;
+    border: solid 2px $brown-3;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px $brown-3;
+}
+
+.btn-actions {
+    width: 7rem;
+    height: 3rem;
+    color: $white;
+    background-color: $light-brown-1;
+    border: none;
+    border-radius: 30px;
+}
+
+.home-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    box-sizing: border-box;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.3rem 1rem 0.3rem;
+    border-radius: 20px;
+    background-color: $orange-1;
+    color: $white;
+    padding: 0.7rem 0.3rem 0.7rem 0.3rem;
+}
+
+.reseaux h2 {
+    font-family: $text-font;
+    font-size: 1.2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.3rem 1rem 0.3rem;
+    border-radius: 20px;
+    background-color: $grey-4;
+    width: 100%;
+}
+
+.form h2 {
+    font-family: $text-font;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $text-font;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+.input-contact {
+    font-family: $text-font;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.subject-contact {
+    font-family: $text-font;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.message-contact {
+    margin-top: 0.3rem;
+    font-family: $text-font;
+    font-size: 0.8rem;
+}
+
+.btn-contact {
+    width: 7rem;
+    height: 3rem;
+    color: $white;
+    background-color: $grey-1;
+    border: none;
+    border-radius: 30px;
+    margin: 0.3rem 0 0.3rem 0;
+}
+
+
+
+@media screen and (min-width: 993px) {
+    .home-pict {
+        display: flex;
+        box-sizing: border-box;
+        margin: 2rem 0 3rem 0 ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-pict img {
+        width: 80%;
+        border: solid 5px $brown-3;
+        border-radius: 20px;
+        box-shadow: 3px 3px 8px $brown-3;
+    }
+
+    .home-title {
+        font-family: $title-font;
+        font-weight: bold;
+        color: $orange-1;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .home-title h1 {
+        margin: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+    .home-text {
+        font-family: $text-font;
+        font-size: 1.5rem;
+        color: $white;
+        text-align: center;
+        margin: 0.8rem 3rem 1rem 3rem;
+    }
+
+    .home-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .btn-a-propos {
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        color: $white;
+        background-color: $orange-1;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .home-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        background-color: $light-brown-1;
+        margin: 1rem 0.7rem 1rem 0.7rem;
+        padding: 1rem;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    .home-img img {
+        height: 25rem;
+        width: auto;
+        margin: 0.3rem;
+        border: solid 5px $brown-3;
+        border-radius: 20px;
+        box-shadow: 3px 3px 8px $brown-3;
+    }
+    
+    .btn-actions {
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        color: $white;
+        background-color: $light-brown-1;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .home-contact {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 3rem 0 3rem 0;
+        width: 100%;
+        gap: 6rem;
+        padding: 1rem 2rem 1rem 2rem;
+        box-sizing: border-box;
+    }
+
+    .reseaux {
+        align-content: center;
+        width: 70%;
+        height: 60%;
+    }
+    
+    .reseaux h2 {
+        font-family: $text-font;
+        font-size: 1.8rem;
+    }
+    
+    .form {
+        width: 90%;
+    }
+    
+    .form h2 {
+        font-family: $text-font;
+        font-size: 1.8rem;
+    }
+    
+    .label-contact {
+        font-size: 1.4rem;
+        margin-top: 0.6rem;
+    }
+    
+    .input-contact {
+        font-size: 1.1rem;
+        margin-top: 0.6rem;
+    }
+    
+    .subject-contact {
+        font-size: 1.1rem;
+        margin-top: 0.6rem;
+    }
+    
+    .message-contact {
+        margin-top: 0.6rem;
+        font-size: 1.1rem;
+    }
+    
+    .btn-contact {
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        color: $white;
+        background-color: $grey-1;
+        border: none;
+        border-radius: 30px;
+        margin: 0.6rem 0 0.6rem 0;
+    }
+}

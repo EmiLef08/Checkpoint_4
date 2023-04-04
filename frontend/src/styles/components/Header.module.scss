@@ -26,3 +26,9 @@
 .div-return {
     grid-column: 1/2;
 }
+
+@media screen and (min-width: 993px) {
+    .header {
+        display: none;
+    }
+}
